@@ -1,0 +1,358 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.sec-1{
+    height: 60vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    background: none;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    position: absolute;
+    top: 0%;
+    z-index: 20;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+#logo{
+    color: white;
+    margin-left: 33%;
+    margin-top: 3%;
+    font-size: 2em;
+    font-weight: 300;
+}
+.nav-ele{
+    display: flex;
+    width: 200px;
+    margin-right: 10%;
+}
+.nav-list{
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: -5%;
+    width: 200px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+}
+.nav-list a{
+    color: white;
+    padding-bottom: 20%;
+}
+.nav-list a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+.s-1-container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    padding-top: 2%;
+    background-color: rgb(5,123,237);
+    justify-content: center;
+    align-items: center;
+}
+.s-1-cont{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20%;
+}
+#s-1-h{
+    font-size: 4em;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 2%;
+}
+#s-1-p{
+    font-size: 1.2em;
+    color: white;
+    line-height: 150%;
+}
+.s-1-img {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20%;
+}
+.s-1-img img{
+    width: 210px;
+}
+
+.sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(245,244,245);
+}
+.s-2-cont{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20%;
+}
+#s-2-h{
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+#s-2-p{
+    line-height: 150%;
+    color: rgb(50, 50, 50);
+}
+.s-2-img{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20%;
+}
+.s-2-img img{
+    width: 300px;
+}
+.s-3-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+#icon{
+    width: 60px;
+    filter: opacity(80%);
+}
+.box-3 img{
+    width: 100px !important;
+}
+.row-1, .row-2, .row-3{
+    display: flex;
+    max-width: 1000px;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10%;
+}
+.row-1{
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.row-1 img{
+    display: flex;
+    margin: 0 20px;
+}
+#row-1-p{
+    display: flex;
+    width: 90%;
+    line-height: 150%;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
+    display: flex;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    align-items: center;
+    justify-content: center;
+}
+.box-1{
+    margin-right: 10px;
+}
+.box-2{
+    margin-left: 10px;
+}
+.box-3{
+    margin-right: 10px;
+}
+.box-4{
+    margin: 0 10px;
+}
+.box-5{
+    margin-left: 10px;
+}
+.box-1 img, .box-2 img, .box-4 img, .box-5 img{
+    display: flex;
+    margin: 0 20px;
+}
+#box-1-p, #box-2-p, #box-3-p, #box-4-p, #box-5-p{
+    display: flex;
+    width: 90%;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(0,35,65);
+    align-items: center;
+}
+.f-left{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    margin-left: 10%;
+}
+#f-logo{
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+#copyright{
+    color: white;
+}
+.f-center{
+    display: flex;
+    width: 25%;
+    margin-left: 3%;
+}
+#f-navlist{
+    list-style: none;
+}
+#f-navlist li{
+    margin-bottom: 10%;
+}
+#f-navlist a{
+    color: white;
+}
+.f-right{
+    display: flex;
+    width: 30%;
+    margin-left: 3%;
+}
+#f-iconList{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+#f-iconList li{
+    display: inline-block;
+    margin-right: 6%;
+}
+#f-iconList a{
+    height: 20px;
+    width: 20px;
+}
+#f-iconList svg{
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+@media only screen and (max-width: 950px){
+    .sec-3{
+        margin: 10% 0;
+    }
+    .row-1, .row-2, .row-3{
+        height: 35%;
+    }
+}
+@media only screen and (max-width: 730px){
+    .sec-1{
+        height: 80vh;
+    }
+    .s-1-container{
+        flex-direction: column;
+        height: 80vh;
+    }
+    .s-1-cont{
+        margin: 0;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+    .s-1-img{
+        margin: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .sec-2{
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .s-2-cont{
+        margin: 0;
+        text-align: center;
+        width: 80%;
+    }
+    .s-2-img{
+        width: 300px;
+        flex-direction: row;
+    }
+
+    .s-3-container{
+        height: 200vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .row-1{
+        height: 23%;
+    }
+    .row-2{
+        height: 50%;
+        flex-direction: column;
+    }
+    .row-3{
+        height: 80%;
+        flex-direction: column;
+    }
+    .box-1, .box-2, .box-3, .box-4, .box-5{
+        margin: 10px 0;
+        width: 100%;
+        height: 180px;
+    }
+
+    .footer{
+        height: 50vh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10% 0%;
+    }
+    .f-left{
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 10px;
+    }
+    .nav-ele{
+        margin: 0;
+    }
+    .nav-list{
+        margin: 0;
+        padding: 10px 10px;
+        background-color: rgb(4,111,212);
+    }
+}
